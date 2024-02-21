@@ -57,7 +57,7 @@ nav a box-icon {
 }
 
 .friends:hover , .profile:hover {
-    filter: drop-shadow(2px 2px 10px #0085FF);
+    filter: drop-shadow(2px 2px 10px #0084ff9d);
 }
 
 .coins:hover {
@@ -93,6 +93,7 @@ nav hr {
     transform: rotate(90deg);
     margin-left: 10px;
     margin-right: 10px;
+    border: 1px solid #b1ccff;
 }
 
 nav a box-icon:hover {
