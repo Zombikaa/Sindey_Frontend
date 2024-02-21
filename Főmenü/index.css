@@ -22,6 +22,7 @@ nav {
 
 nav a box-icon {
     padding: 5px;
+    transition: 0.3s ease-in-out;
 }
 
 #interaction {
@@ -92,4 +93,12 @@ nav hr {
     transform: rotate(90deg);
     margin-left: 10px;
     margin-right: 10px;
+}
+
+nav a box-icon:hover {
+    transform: scale(1.2);
+}
+
+.on:hover {
+    transform: none;
 }
